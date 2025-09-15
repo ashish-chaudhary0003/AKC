@@ -1,0 +1,113 @@
+{
+  "portfolio": {
+    "meta": {
+      "title": "Portfolio 2024 — Ashish Kumar Chaudhary",
+      "designer_name": "Ashish Kumar Chaudhary",
+      "city": "Delhi, India",
+      "availability": "Full Time / Freelance / Project",
+      "welcome_message": "Thank you for visiting! Explore my creative journey, leadership, and impact.",
+      "personal_website": "https://example.com"
+    },
+    "branding_section": {
+      "tagline": "Tech Leader & Change Maker",
+      "highlights": "Driving digital transformation and social impact with innovative leadership, technical expertise, and community empowerment.",
+      "cta": [
+        { "label": "View Leadership Journey", "target": "#leadership" },
+        { "label": "Let's Connect", "target": "#contact" }
+      ]
+    },
+    "tools_section": {
+      "title": "Preferred Tools",
+      "tools": [
+        "Photoshop",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Python",
+        "Figma",
+        "Premiere Pro"
+      ]
+    },
+    "projects": [
+      {
+        "name": "CreatiQ.Tech",
+        "role": "Software Engineer & Product Lead",
+        "duration": "Jul 2024 – Sep 2025",
+        "description": "Led end-to-end development for 20+ team members, architected technical solutions, delivered 99% success rate for digital transformation projects, and expanded services into video production and social media marketing.",
+        "visual_sample_prompt": "Generate a modern UI dashboard showcasing team stats and project delivery timelines. Use a blue and white palette with clear information hierarchy."
+      },
+      {
+        "name": "Kalyan Mitra Foundation",
+        "role": "Founder & Director",
+        "duration": "Jul 2024 – Present",
+        "description": "Launched educational centers in East Delhi, led planning for 50+ volunteers, coordinated health and literacy campaigns, and empowered women in underserved communities.",
+        "visual_sample_prompt": "Create an infographic or editorial layout showing community centers, volunteer network, and impact statistics in vibrant, accessible colors."
+      }
+    ],
+    "visual_style": {
+      "layout": "Clean, modern with white space prioritization.",
+      "typography": "Bold headings and clear project names.",
+      "interactive": ["Appreciation buttons", "Live portfolio links"],
+      "palette": { "primary": "#2563eb", "secondary": "#64748b", "accent": "#0ea5e9", "bg_light": "#f8fafc", "white": "#ffffff" }
+    },
+    "narrative_elements": {
+      "callouts": [
+        "Appreciate this project",
+        "Check the live portfolio for other works and inspiration"
+      ],
+      "location": "Delhi, India",
+      "availability_note": "Available for new opportunities within the next few weeks"
+    },
+    "impact_metrics": [
+      { "number": "99%", "label": "Success Rate", "desc": "Project delivery success across all client engagements" },
+      { "number": "40%", "label": "Efficiency Gain", "desc": "Reduction in delivery times through process optimization" },
+      { "number": "70+", "label": "Team Size", "desc": "Combined team members across technology and social ventures" },
+      { "number": "2+", "label": "Years Experience", "desc": "Leading digital transformation initiatives" }
+    ],
+    "skills": {
+      "leadership": [
+        "Team Management",
+        "Strategic Planning",
+        "Project Management",
+        "Stakeholder Management",
+        "Community Building",
+        "Change Management"
+      ],
+      "technical": [
+        "Full-Stack Development",
+        "React & Next.js",
+        "Node.js & Python",
+        "AI/ML Integration",
+        "Cloud Architecture",
+        "DevOps"
+      ],
+      "business": [
+        "Digital Transformation",
+        "Product Strategy",
+        "Client Relations",
+        "Business Development",
+        "Process Optimization",
+        "Quality Assurance"
+      ]
+    },
+    "contact": {
+      "cta": "Ready to drive digital transformation or create social impact together?",
+      "availability_note": "Open to leadership opportunities, partnerships, and innovative projects.",
+      "links": [
+        { "type": "email", "label": "Email", "value": "work.ashishchaudhary@gmail.com" },
+        { "type": "phone", "label": "Phone", "value": "+91-8810336018" },
+        { "type": "linkedin", "label": "LinkedIn", "value": "https://linkedin.com/in/ashish-chaudhary-z3" },
+        { "type": "github", "label": "GitHub", "value": "https://github.com/ashish-chaudhary0003" }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2025 Ashish Kumar Chaudhary. All rights reserved."
+    },
+    "ai_instructions": {
+      "visual_samples_per_project": "Generate high-quality images for each project; include digital graphics, editorial layouts, branding, and UI concepts.",
+      "style_consistency": "Maintain unified style and color palette across sections.",
+      "multi_format_output": ["PDF", "Website portfolio", "Image boards", "Social links"]
+    },
+    "reference_style_url": "https://www.behance.net/gallery/159150041/Jonny-Czar-Portfolio-2024"
+  }
+}
