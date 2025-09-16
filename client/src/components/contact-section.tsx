@@ -26,7 +26,7 @@ function ContactCard({ href, icon, iconColor, title, subtitle, delay, testId }: 
     >
       <i className={`${icon} text-3xl ${iconColor} mb-4 group-hover:scale-110 transition-transform`}></i>
       <div className="font-semibold mb-2">{title}</div>
-      <div className="text-sm text-muted-foreground">{subtitle}</div>
+      <div className="text-sm text-muted-foreground break-all">{subtitle}</div>
     </motion.a>
   );
 }

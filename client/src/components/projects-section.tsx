@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import CreatiQLogo from "./creatiq-logo";
+import KalyanMitraLogo from "./kalyan-mitra-logo";
 
 export default function ProjectsSection() {
   return (
@@ -30,7 +32,10 @@ export default function ProjectsSection() {
               <div className="absolute inset-0 p-8 flex items-center justify-center">
                 <div className="w-full max-w-sm bg-white/10 backdrop-blur rounded-xl p-4">
                   <div className="flex items-center justify-between mb-4">
-                    <div className="text-white font-semibold">CreatiQ Dashboard</div>
+                    <div className="flex items-center gap-2">
+                      <CreatiQLogo size="sm" />
+                      <div className="text-white font-semibold">CreatiQ Dashboard</div>
+                    </div>
                     <div className="flex gap-2">
                       <div className="w-3 h-3 rounded-full bg-red-400"></div>
                       <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
@@ -82,7 +87,10 @@ export default function ProjectsSection() {
               <div className="absolute inset-0 p-8 flex items-center justify-center">
                 <div className="w-full max-w-sm">
                   <div className="text-center text-white mb-4">
-                    <h4 className="font-bold text-lg mb-2">Community Impact</h4>
+                    <div className="flex items-center justify-center gap-2 mb-2">
+                      <KalyanMitraLogo size="sm" />
+                      <h4 className="font-bold text-lg">Community Impact</h4>
+                    </div>
                   </div>
                   <div className="grid grid-cols-3 gap-2 text-center">
                     <div className="bg-white/20 backdrop-blur rounded-lg p-2">

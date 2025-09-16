@@ -29,7 +29,9 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div 
-            className="font-bold text-xl text-primary cursor-pointer"
+            className={`font-bold text-xl cursor-pointer transition-colors ${
+              isScrolled ? 'text-primary' : 'text-white'
+            }`}
             onClick={() => scrollToSection('home')}
             data-testid="logo-home"
           >
@@ -38,28 +40,36 @@ export default function Navigation() {
           <div className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className={`transition-colors ${
+                isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white'
+              }`}
               data-testid="nav-home"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className={`transition-colors ${
+                isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white'
+              }`}
               data-testid="nav-projects"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className={`transition-colors ${
+                isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white'
+              }`}
               data-testid="nav-skills"
             >
               Skills
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className={`transition-colors ${
+                isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white'
+              }`}
               data-testid="nav-contact"
             >
               Contact
